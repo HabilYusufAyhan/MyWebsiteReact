@@ -7,7 +7,7 @@ import Whoami from "../components/Whoami";
 
 const Home = () => {
   return (
-    <div className="w-full h-full bg-gradient-to-br from-orange-50 to-yellow-100">
+    <div className="w-full h-full bg-gradient-to-br from-orange-50 to-yellow-100 overflow-x-hidden">
       <Header />
       <Whoami />
       <MyProjects />
