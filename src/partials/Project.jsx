@@ -31,7 +31,7 @@ const Project = ({ project, index }) => {
     };
     fetchData();
   }, []);
-  console.log(projectLanguage);
+
   const date = new Date(project.updated_at).toLocaleDateString("en-TR", {
     year: "numeric",
     month: "long",

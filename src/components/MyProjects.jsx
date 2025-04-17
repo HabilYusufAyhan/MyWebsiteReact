@@ -36,7 +36,6 @@ const MyProjects = () => {
     };
     fetchData();
   }, []);
-  console.log(projects);
 
   return (
     <div
