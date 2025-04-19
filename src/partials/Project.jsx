@@ -41,7 +41,7 @@ const Project = ({ project, index }) => {
     <div
       key={index}
       className={`bg-white rounded-tr-md rounded-bl-md rounded-tl-xl rounded-br-xl overflow-hidden shadow-lg transform transition-all duration-500 animate-on-scroll opacity-0 translate-y-12`}
-      style={{ transitionDelay: `${300 + index * 100}ms` }}
+      style={{ transitionDelay: `${300 + index * 50}ms` }}
     >
       {/* Project Header with GitHub Theme */}
       <div className="bg-gray-50 p-4 border-b border-gray-100 flex justify-between items-center">
